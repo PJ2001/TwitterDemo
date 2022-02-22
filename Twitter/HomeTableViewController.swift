@@ -15,6 +15,12 @@ class HomeTableViewController: UITableViewController {
     var numberOfTweet: Int!
     
     let myRefreshControl = UIRefreshControl()
+    
+    
+
+    
+   
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -116,7 +122,7 @@ class HomeTableViewController: UITableViewController {
             cell.profileImageView.image = UIImage(data:imageData)
         }
         
-    
+        cell.setFavorite(tweetArray[indexPath.row]["favorited"] as! Bool)
         
         return cell
         
