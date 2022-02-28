@@ -95,6 +95,9 @@
                                             </constraints>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain" image="favor-icon" title=""/>
+                                            <connections>
+                                                <action selector="favoriteTweet:" destination="uwH-0Q-xqt" eventType="touchUpInside" id="qtJ-TS-7gw"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bnp-hu-lqP">
                                             <rect key="frame" x="292" y="160" width="30" height="30"/>
@@ -105,6 +108,9 @@
                                             </constraints>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain" image="retweet-icon" title=""/>
+                                            <connections>
+                                                <action selector="retweet:" destination="uwH-0Q-xqt" eventType="touchUpInside" id="HUz-fA-bzr"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <constraints>
@@ -114,7 +120,6 @@
                                         <constraint firstAttribute="trailing" secondItem="Zlp-yw-2in" secondAttribute="trailing" id="6I6-Mv-PAU"/>
                                         <constraint firstAttribute="bottom" secondItem="bnp-hu-lqP" secondAttribute="bottom" id="Kpw-AK-TE3"/>
                                         <constraint firstItem="pJ3-Sq-pkG" firstAttribute="leading" secondItem="bnp-hu-lqP" secondAttribute="trailing" constant="8" symbolic="YES" id="MBc-lp-lai"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="pJ3-Sq-pkG" secondAttribute="trailing" constant="10" id="MsP-O7-HYy"/>
                                         <constraint firstItem="pJ3-Sq-pkG" firstAttribute="top" secondItem="Zlp-yw-2in" secondAttribute="bottom" constant="10" id="Rl3-oH-Bpt"/>
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="5FL-xK-eVz" secondAttribute="trailing" constant="20" symbolic="YES" id="SlK-bW-rUF"/>
                                         <constraint firstItem="0Me-Jy-Irc" firstAttribute="top" secondItem="2tZ-Hl-zAJ" secondAttribute="top" id="Vf4-UZ-mUk"/>
@@ -124,7 +129,6 @@
                                         <constraint firstAttribute="trailingMargin" secondItem="pJ3-Sq-pkG" secondAttribute="trailing" constant="10" id="s53-ou-bMm"/>
                                         <constraint firstItem="0Me-Jy-Irc" firstAttribute="leading" secondItem="2tZ-Hl-zAJ" secondAttribute="leading" id="u8s-cK-OQ0"/>
                                         <constraint firstItem="Zlp-yw-2in" firstAttribute="leading" secondItem="0Me-Jy-Irc" secondAttribute="trailing" constant="8" id="uaS-Xo-Nn5"/>
-                                        <constraint firstItem="pJ3-Sq-pkG" firstAttribute="bottom" secondItem="2tZ-Hl-zAJ" secondAttribute="bottomMargin" constant="10" id="wmu-FC-MeT"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
